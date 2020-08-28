@@ -6,7 +6,7 @@ import CollectionPreview from '../../Components/Collection_preview/Collection-pr
 class ShopPage extends React.Component {
     constructor(props){
         super(props);
-
+        
         this.state ={
               collections : ShopData
 
