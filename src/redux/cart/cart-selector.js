@@ -32,6 +32,6 @@ export const selectCartTotal = createSelector (
         0
     ) 
 
-)
+);
 
 
