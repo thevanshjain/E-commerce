@@ -14,11 +14,10 @@ import './App.css';
 import {setCurrentUser} from './redux/user/user-actions';
 import { selectCurrentUser} from './redux/user/user-selector';
 
-
 class App extends React.Component {
   
 
-unsubscribeFromAuth = null
+unsubscribeFromAuth = null;
 
 
 componentDidMount() {
@@ -40,6 +39,7 @@ const {setCurrentUser} =this.props;
     }
   
   setCurrentUser(userAuth);
+  //addCollectionsAndDocuments('collections', collectionArray.map(({title,items}) =>({title, items})));
 });
 }
 
@@ -72,7 +72,7 @@ componentWillUnmount(){
 }}
 
 const mapStateToProps = createStructuredSelector ({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 });
 
 
