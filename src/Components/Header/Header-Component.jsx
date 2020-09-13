@@ -6,7 +6,7 @@ import { ReactComponent as Logo} from '../../assets/crown.svg';
 import {selectCartHidden } from '../../redux/cart/cart-selector';
 import  { selectCurrentUser} from '../../redux/user/user-selector';
 import { signOutStart } from '../../redux/user/user-actions';
-//import {auth} from '../../firebase/firebase.util';
+
 import CartIcon from '../cart-icon/cart-icon-component';
 import CartDropDown from '../cart-dropdown/cart-dropdown-component';
 import './Header-styles.scss';
